@@ -1,0 +1,64 @@
+page{
+  background-color:#fff;
+}
+.addr-containner {
+  flex-direction: column;
+  /* padding-top: 32px; */
+}
+
+.item-view {
+  width: 750px;
+  padding: 10px 0px;
+  border-bottom: 2px solid #f5f5f5;
+  font-size: 25px;
+  align-items: center;
+  height: 80px;
+}
+
+.title {
+  width: 160px;
+  text-align: right;
+  margin-right: 15px;
+  color: #666;
+}
+
+icon{
+  margin-left: 25px !important;
+}
+
+.picker {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 50px;
+}
+
+.picker-text {
+  line-height: 50px;
+  flex: 1;
+  height: 50px;
+}
+
+.picker-indicator {
+  color: #aaa;
+  font-size: 20px;
+}
+
+.save-btn-view {
+  width: 750px;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.save-btn {
+  width: 660px;
+  font-size: 25px;
+  background-color: #ffe546;
+  color: #7d6800;
+  text-align: center;
+  padding: 20px;
+}
+
+

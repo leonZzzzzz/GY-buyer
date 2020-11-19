@@ -1,0 +1,115 @@
+.getcoupon{
+  margin:20px;
+  flex-direction: column;
+}
+.coup{
+  flex-direction: column;
+    background:#fff;
+padding:20px;
+border-radius:15px;
+margin-bottom:20px;
+}
+.coupons{
+  height:180rpx;
+  display:flex;
+  justify-content: space-between;
+  margin:20rpx 20rpx 0 20rpx;
+}
+.cou-img{
+  width:640rpx;height:180rpx;
+  position:absolute;
+  z-index:-1;
+}
+.icon{
+  padding-top:35rpx;
+  margin-right:5rpx;
+}
+.content{
+  // height:180rpx;
+display:flex;
+justify-content:space-between;
+margin:20rpx 20rpx 0 20rpx;
+}
+.coupon-one,.coupon-two,.coupon-three{
+  display:flex;
+}
+.coupon-one{
+  width:200rpx;
+  flex-direction: column;
+  margin-top:25rpx;
+}
+.cous{
+  flex-direction: row;
+  margin:0 auto;
+}
+.cous text:first-child{
+  font-size:34px;
+  font-weight:bold;
+  margin-top:24px;
+}
+.cous text:last-child{
+  font-size:60px;
+  font-weight:bold;
+}
+.coupon-one>text{
+  font-size:26px;
+  text-align: center;
+  display:block
+}
+.coupon-two{
+  flex-direction: column;
+  width:377rpx;
+  margin-top:35rpx;
+}
+.coupon-two>text:nth-child(1){
+  font-size:28rpx;
+  display:block;
+}
+.coupon-two>text:nth-child(2){
+  // font-size:24rpx;
+  font-size:22rpx;
+  color:#999;
+  display:block;
+}
+.coupon-two>text:last-child{
+  font-size:24px;
+// background:#ddd;
+// text-align:center;
+// padding:5px 10px;
+margin-top:20px;
+color:#999;
+display:block;
+}
+.coupon-three{
+font-size:23rpx;
+color:#1bbc3d;
+width:42rpx;
+margin-top:44rpx;
+font-weight:bold;
+// position:absolute;
+// margin-left:38rpx;
+}
+.coupon-three>text{
+  width:62rpx;
+}
+.no-data-view{flex-direction:column;align-items:center;padding-top:100px;width:100%;}
+.no-data-image{margin:0 auto;width:146px;height:160px;margin-bottom:50px;display:block;}
+.no-data-text{text-align:center;color:#999;line-height:130%;font-size:28px;}
+.no-data-btn{width:176px;height:60px;border-width:0;margin-top:38px;text-align:center;background:#ffe71c;border-radius:6px;font-size:28px;line-height:60px;margin-bottom:48px}
+
+.btn{
+  position:fixed;
+  bottom:0;
+  width:100%;
+  background:#1bbc3d;
+  padding:30rpx;
+  font-size:32rpx;
+  color:#fff;
+  text-align: center;
+  letter-spacing: 10rpx;
+}
+.nose{
+  height:30rpx !important;
+  width:625rpx;
+  margin-top:35rpx;
+}

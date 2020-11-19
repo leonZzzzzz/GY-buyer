@@ -1,0 +1,19 @@
+.qc-checkbox {
+  &__icon {
+    font-size: 40px;
+    margin-right: 30px;
+    vertical-align: middle
+  }
+  .qc-icon-check {
+    color: #eee;
+  }
+  .qc-icon-checked {
+    color: #ff5433;
+  }
+  &__text {
+    display: inline-block;
+    color: #333;
+    font-size: 28px;
+    vertical-align: middle;
+  }
+}

@@ -1,0 +1,47 @@
+page{
+  background:#fff;
+}
+.logo{
+  text-align: center;
+  margin:130rpx 0;
+}
+.logo>image{
+  width:400rpx;
+  height:120rpx;
+}
+.phone{
+  display:flex;
+justify-content:space-between;
+margin:0 30rpx;
+border-bottom:1px solid #eee;
+padding:20rpx 0;
+font-size:26rpx;
+}
+.phone>text{
+  font-size:26rpx;
+}
+.phone>input{
+  width:480rpx;
+}
+.btn{
+  text-align: center;
+  margin-top:100rpx;
+}
+.btn>text{
+  padding:20rpx 230rpx;
+background:#1BBC3D;
+color:#fff;
+border-radius:10rpx;
+}
+.radio-group{
+  width:480rpx;
+  font-size:26rpx;
+  color:#323432;
+  display:flex;
+}
+.radio-list__label{
+  margin-right:50rpx;
+}
+.radio-list__radio{
+  transform:scale(0.8)
+}

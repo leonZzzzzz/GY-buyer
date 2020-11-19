@@ -1,0 +1,11 @@
+.qc-fixed-wrap {
+  position: fixed;
+  z-index: 100;
+  width: 100%;
+}
+.qc-fixed-wrap--top {
+  top: 0;
+}
+.qc-fixed-wrap--bottom {
+  bottom: 0;
+}

@@ -1,0 +1,49 @@
+.address-edit {
+  font-size: 28px;
+  .form {
+    &-item {
+      position: relative;
+      display: flex;
+      box-sizing: border-box;
+      padding: 30px;
+      background: #fff;
+      @include space-border;
+      &__title {
+        min-width: 150px;
+        margin-right: 20px;
+      }
+      &__content {
+        flex: 1;
+        .placeholder {
+          color: $grey-text;
+        }
+        .picker {
+          width: 100%;
+          &__inner {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+          }
+        }
+      }
+    }
+  }
+  &__button {
+    margin: 40px 30px 0;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 28px;
+    &--submit {
+      background: #ff5433;
+      color: #fff;
+    }
+    &--delete {
+      background: #eee;
+      color: #000;
+
+    }
+  }
+}
+switch {
+  zoom: 0.7;
+}

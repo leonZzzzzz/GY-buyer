@@ -1,0 +1,19 @@
+.hidden-form {
+  position: relative;
+  display: flex;
+  .hidden-button {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: transparent;
+    outline: none;
+    padding: 0;
+    box-sizing: border-box;
+    &::after {
+      content: "";
+      border: none;
+    }
+  }
+}

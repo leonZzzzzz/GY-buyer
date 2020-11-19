@@ -1,0 +1,148 @@
+.cust-fixed{
+background:#fff;
+width:100%;
+height:95rpx;
+position:fixed;
+top:0;
+}
+.search{
+  background:#F6F6F6;
+  font-size:26px;
+  width:710px;
+  margin-left:20px;
+  margin-top:20px;
+  height:60rpx;
+  // position:fixed;
+}
+.search input{
+  margin:0 auto;
+  width:160px;
+  height:60rpx;
+}
+.content{
+  // margin-top:110rpx;
+// background:#fff;
+}
+.content-a{
+  // border-bottom:1px solid #eee;
+  padding:20rpx;
+  background:#fff;
+  &-name{
+    display:flex;
+    font-size:26rpx;
+    &-pic{
+      width:50rpx;height:50rpx;
+      border-radius: 50%;
+    }
+    &-user{
+      margin-left:20rpx;
+      line-height:50rpx;
+      font-weight:bold;
+      &-t{
+        color:#999;
+        font-size:24rpx;
+        font-weight:400;
+        margin-left:5rpx;
+      }
+    }
+  }
+}
+.content-statis{
+  background:#F9F9F9;
+  // display:flex;
+  // justify-content: space-between;
+  // flex-wrap: wrap;
+  padding:20rpx;
+  margin-top:20rpx;
+}
+.left{
+  border-right:1px solid #eee;
+}
+.statis-a{
+  display:flex;
+  flex-direction: row;
+  text-align: center;
+  font-size:26rpx;
+  width:335rpx;
+}
+.statis-a>text:last-child{
+  color:#1BBC3D;
+  // font-size:32rpx;
+  font-weight:bold;
+  margin-bottom:20rpx;
+  margin-left:15rpx;
+}
+.orange{
+  color:#FF840B !important;
+}
+
+.content-b{
+  background:#fff;
+  margin-top:15rpx;
+  padding:20rpx;
+}
+.content-title{
+  text-align: center;
+  margin-bottom:30rpx;
+}
+.content-title>image{
+  width:30rpx;
+  height:25rpx;
+  margin:0 10rpx;
+  margin-top:12rpx;
+}
+.con-row{
+  margin:0 30rpx;
+  background:#F9F9F9;
+  padding:20rpx;
+  margin-bottom:3rpx;
+  display:flex;
+  justify-content: space-between;
+}
+.con-row>text{
+  font-size:34rpx;font-weight:bold;color:#343C49;
+  line-height: 70rpx;
+}
+.con-col{
+  display:flex;
+  flex-direction: column;
+  text-align: right;
+}
+.con-col>text:first-child{
+  color:#FF671E;
+  font-size:30rpx;
+  font-weight:bold;
+}
+.con-col>view{
+  color:#999;
+  font-size:24rpx;
+}
+.confirm-order{
+  position:fixed;
+bottom:0;
+display:flex;
+justify-content: space-between;
+font-size:28rpx;
+width:100%;
+background:#fff;
+}
+.btn{
+  display:flex;
+justify-content: space-between;
+width:100%;
+}
+.btn>view{
+border-radius:10rpx;
+width:670rpx;
+text-align:center;
+padding:15rpx 0;
+margin:20rpx 40rpx;
+}
+.btn>view:nth-child(1){
+border:1rpx solid #1BBC3D;
+color:#1BBC3D;
+}
+.btn>view:last-child{
+  background:#1BBC3D;
+  color:#fff;
+}

@@ -1,0 +1,128 @@
+.product-confirm {
+  padding-bottom: 200px;
+
+  .name {
+    font-weight: bold;
+  }
+}
+.aftre-sale-item {
+  margin-bottom: 15px;
+  .content {
+    background: #fff;
+  }
+  .store-name {
+    padding: 20px 0;
+    font-size: 28px;
+    margin: 0 20px;
+    border-bottom: 1px solid #eee;
+    font-weight: bold;
+  }
+  .credit {
+    border: 1px solid #ff840b;
+    font-size: 26px;
+    color: #ff840b;
+    font-weight: 400;
+    margin-left: 10px;
+    padding: 0px 7px;
+  }
+  .tips {
+    color: #1bbc3d;
+    font-size: 26px;
+    margin-top: 10px;
+    font-weight: 500;
+  }
+  .order-store {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    font-size: 28px;
+    &-img {
+      width: 110px;
+      height: 110px;
+      background: #eee;
+    }
+    &-name {
+      width: 585px;
+      font-size: 28px;
+      display: flex;
+      flex-direction: column;
+      &-t {
+        text-overflow: ellipsis;
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 2;
+        overflow: hidden;
+      }
+      &-g {
+        font-size: 26px;
+        color: #8b8d8b;
+        margin-top: 15px;
+      }
+      &-s {
+        margin-top: 15px;
+        border: 1px solid #8b8d8b;
+        padding: 8px;
+        font-size: 26px;
+        border-radius: 10px;
+        color: #4b4d4b;
+        width: 135px;
+        text-align: center;
+      }
+      &-ing {
+        margin-top: 15px;
+        border: 1px solid #ff840b;
+        padding: 8px;
+        font-size: 26px;
+        border-radius: 10px;
+        color: #ff840b;
+        width: 135px;
+        text-align: center;
+      }
+    }
+    &-price {
+      font-size: 28px;
+      display: flex;
+      flex-direction: column;
+      &-n {
+        font-size: 26px;
+        color: #8b8d8b;
+        text-align: right;
+      }
+    }
+  }
+  .order-content,
+  .apply {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .nobor {
+    border-top: none;
+  }
+
+  .apply-sale {
+    padding: 20px;
+    border-bottom: 1px solid #eee;
+    display: flex;
+    font-size: 26px;
+    background: #fff;
+  }
+  .apply-sale > image {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+  }
+  .checkdetail {
+    text-align: right;
+    padding: 20px;
+    background: #fff;
+  }
+  .checkdetail > text {
+    padding: 10px 30px;
+    font-size: 26px;
+    color: #4b4d4b;
+    border: 1px solid #8b8d8b;
+    border-radius: 10px;
+  }
+}

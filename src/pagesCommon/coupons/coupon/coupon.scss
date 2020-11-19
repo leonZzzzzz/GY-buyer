@@ -1,0 +1,145 @@
+.getcoupon {
+  margin: 20px;
+  flex-direction: column;
+}
+.coup {
+  flex-direction: column;
+  background: #fff;
+  padding: 20px;
+  border-radius: 15px;
+  margin-bottom: 20px;
+}
+.coupons {
+  height: 180rpx;
+  display: flex;
+  justify-content: space-between;
+  margin: 20rpx 20rpx 0 20rpx;
+  position: relative;
+  overflow: hidden;
+}
+.cou-img {
+  width: 710rpx;
+  height: 180rpx;
+  position: absolute;
+  z-index: -1;
+}
+.coupon-one,
+.coupon-two,
+.coupon-three {
+  display: flex;
+}
+
+.newcust-tag{
+  position: absolute;
+  top: 14px;
+  left: -42px;
+  display: inline-block;
+  font-size: 26px;
+  padding: 0 35px;
+  line-height: 1.4;
+  color: #fff;
+  border-radius: 6px;
+  background: rgb(255, 102, 0);
+  transform: rotate(-45deg) scale(0.8);
+}
+.coupon-one {
+  width: 200rpx;
+  flex-direction: column;
+  margin-top: 25rpx;
+}
+.cous {
+  flex-direction: row;
+  margin: 0 auto;
+}
+.cous text:first-child {
+  font-size: 34px;
+  font-weight: bold;
+  margin-top: 24px;
+}
+.cous text:last-child {
+  font-size: 60px;
+  font-weight: bold;
+}
+.coupon-one > text {
+  font-size: 26px;
+  text-align: center;
+  display: block;
+}
+.coupon-two {
+  flex-direction: column;
+  width: 380rpx;
+  margin-top: 35rpx;
+}
+.coupon-two > text:nth-child(1) {
+  font-size: 28rpx;
+  display: block;
+}
+.coupon-two > text:nth-child(2) {
+  // font-size:24rpx;
+  font-size: 22rpx;
+  color: #999;
+  display: block;
+}
+.coupon-two > text:last-child {
+  font-size: 24px;
+  // background:#ddd;
+  // text-align:center;
+  // padding:5px 10px;
+  margin-top: 20px;
+  color: #999;
+  display: block;
+}
+.coupon-three {
+  font-size: 23rpx;
+  width: 72rpx;
+  margin-top: 55rpx;
+  font-weight: bold;
+  // position:absolute;
+  // margin-left:38rpx;
+}
+.coupon-three-a {
+  color: #1bbc3d;
+  width: 62rpx;
+}
+.coupon-three-b {
+  width: 62rpx;
+  color: #999;
+}
+.coller {
+  position: absolute;
+  width: 85rpx;
+  height: 85rpx;
+  right: 0;
+  bottom: 0px;
+}
+.no-data-view {
+  flex-direction: column;
+  align-items: center;
+  padding-top: 100px;
+  width: 100%;
+}
+.no-data-image {
+  margin: 0 auto;
+  width: 146px;
+  height: 160px;
+  margin-bottom: 50px;
+  display: block;
+}
+.no-data-text {
+  text-align: center;
+  color: #999;
+  line-height: 130%;
+  font-size: 28px;
+}
+.no-data-btn {
+  width: 176px;
+  height: 60px;
+  border-width: 0;
+  margin-top: 38px;
+  text-align: center;
+  background: #ffe71c;
+  border-radius: 6px;
+  font-size: 28px;
+  line-height: 60px;
+  margin-bottom: 48px;
+}

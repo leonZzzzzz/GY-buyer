@@ -1,0 +1,67 @@
+@import '../../../styles/index.scss';
+
+.tabs-wrap {
+  background: #fff;
+  display: flex;
+  z-index: 5;
+  .item {
+    flex: 1;
+    text-align: center;
+    color: $color-grey;
+    font-size: 28px;
+    height: 90px;
+    line-height: 90px;
+    white-space: nowrap;
+  }
+  .active {
+    color: #000;
+    position: relative;
+    &::after {
+      position: absolute;
+      content: '';
+      width: 50px;
+      height: 6px;
+      border-radius: 10px;
+      background: $price-color;
+      bottom: 10px;
+      left: 50%;
+      transform: translateX(-50%);
+    }
+  }
+}
+
+
+.tabs-scroll-wrap {
+  white-space: nowrap;
+  box-sizing: border-box;
+  height: 90px;
+  position: relative;
+  background: #fff;
+  z-index: 5;
+  .scroll-item {
+    display: inline-block;
+    text-align: center;
+    color: $color-grey;
+    font-size: 28px;
+    height: 90px;
+    line-height: 90px;
+    white-space: nowrap;
+    position: relative;
+    padding: 0 30px;
+  }
+  .active {
+    color: #000;
+    position: relative;
+    &::after {
+      position: absolute;
+      content: '';
+      width: 50px;
+      height: 6px;
+      border-radius: 10px;
+      background: $price-color;
+      bottom: 10px;
+      left: 50%;
+      transform: translateX(-50%);
+    }
+  }
+}

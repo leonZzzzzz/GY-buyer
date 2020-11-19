@@ -1,0 +1,28 @@
+page{
+  background:#fff;
+}
+.current{
+margin:30rpx;
+border-bottom:1px solid #eee;
+height:180rpx;
+}
+.city{
+  display:block;
+  font-size:30rpx;font-weight:bold;
+}
+.oncity{
+  margin-top:40rpx;
+  display:flex;
+-webkit-flex-wrap:wrap;
+-ms-flex-wrap:wrap;
+flex-wrap:wrap;
+}
+.oncity>text{
+  padding:15rpx 70rpx;
+font-size:26rpx;
+border:1rpx solid #8B8D8B;
+color:#323432;
+border-radius:10rpx;
+margin:0 17rpx;
+margin-bottom:15px;
+}

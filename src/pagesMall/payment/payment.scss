@@ -1,0 +1,287 @@
+.dealpay {
+  background: #fff;
+  padding: 20rpx;
+  margin-bottom: 15rpx;
+}
+.contentpay {
+  background: #fff;
+}
+.deal {
+  font-size: 28rpx;
+  color: #323432;
+}
+.money {
+  font-size: 34rpx;
+  color: #ff840b;
+  margin-left: 10px;
+}
+.charge {
+  color: #323432;
+  font-weight: bold;
+  font-size: 30rpx;
+}
+.store {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20rpx;
+  // margin-right:20rpx;
+  font-size: 25rpx;
+}
+.store image {
+  width: 25rpx;
+  height: 25rpx;
+  margin-top: 5rpx;
+  margin-left: 20rpx;
+}
+.linh {
+  line-height: 80rpx;
+  margin-right: 20rpx;
+}
+.order-charge {
+  // margin:0 20rpx;
+  border-top: 1px solid #eee;
+  padding: 20rpx;
+  font-size: 26rpx;
+  margin-top: 10px;
+  &-title {
+    color: #1bbc3d;
+  }
+  &-detail {
+    display: flex;
+    justify-content: space-between;
+    color: #323432;
+    margin-top: 20rpx;
+    &-img {
+      width: 25rpx;
+      height: 25rpx;
+      margin-left: 20rpx;
+    }
+  }
+}
+.pay {
+  padding: 20rpx;
+  justify-content: space-between;
+  display: flex;
+  margin-top: 20rpx;
+}
+.pay > text:first-child {
+  color: #323432;
+  font-weight: bold;
+  font-size: 26rpx;
+}
+.pay > text:last-child {
+  color: #ff840b;
+  font-size: 34rpx;
+}
+.choosePay {
+  background: #fff;
+  display: flex;
+  justify-content: space-between;
+  font-size: 26rpx;
+}
+.way {
+  padding: 20rpx;
+  color: #8b8d8b;
+  font-size: 24rpx;
+}
+.wxpay {
+  padding: 20rpx;
+  color: #4b4d4b;
+}
+.wxpay > image {
+  width: 40rpx;
+  height: 40rpx;
+}
+.wxpay > text {
+  margin-left: 10rpx;
+}
+.radio-list__radio {
+  transform: scale(0.8);
+}
+.bal {
+  color: #4b4d4b;
+  font-size: 24rpx;
+  margin-right: 10rpx;
+}
+.choose-a {
+  border-bottom: 1px solid #eee;
+}
+.gray > text {
+  background: #999 !important;
+}
+.btn {
+  position: fixed;
+  bottom: 0;
+  background: #fff;
+  width: 100%;
+  height: 120rpx;
+  text-align: center;
+  display: flex;
+}
+.btn > text {
+  padding: 20px 260px;
+  background: #1bbc3d;
+  color: #fff;
+  margin: 20rpx auto;
+  border-radius: 10rpx;
+}
+.bortop {
+  padding: 20rpx;
+  border-top: 1px solid #eee;
+  padding-top: 20rpx;
+}
+.dialogpsd {
+  margin: 10px 30px;
+  text-align: right;
+  color: #1bbc3d;
+}
+
+// 支付密码
+.dialog {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 1222;
+  background: rgba(0, 0, 0, 0.5);
+  .input_main {
+    position: fixed;
+    left: 50%;
+    bottom: 50%;
+    margin-bottom: -180px;
+    margin-left: -45%;
+    width: 90%;
+    height: 395px;
+    background-color: #fff;
+    z-index: 1223;
+    border-radius: 10px;
+    .input_title {
+      width: 100%;
+      height: 135px;
+      line-height: 135px;
+      text-align: center;
+      font-size: 40px;
+      .input_title-close {
+        color: rgb(153, 153, 153);
+        float: left;
+        margin-top: 50px;
+        margin-left: 40px;
+      }
+      .input_back {
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 80px;
+        height: 90px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .input_backtext {
+          width: 20px;
+          height: 20px;
+          background-color: white;
+          border: 2px solid #aaa;
+          border-width: 5px 0 0 5px;
+          transform: rotate(-45deg);
+        }
+      }
+    }
+    .write-title {
+      color: rgb(102, 102, 102);
+      font-size: 30px;
+      padding-left: 40px;
+      margin-bottom: 30px;
+    }
+    .input_row {
+      width: 88%;
+      margin: 0 40px;
+      height: 98px;
+      position: relative;
+      display: flex;
+      align-items: center;
+      border: 2px solid rgb(229, 229, 229);
+      .pwd_item {
+        flex: 1;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+        border-right: 2px solid rgb(229, 229, 229);
+        position: relative;
+        .pwd_itemtext {
+          width: 30px;
+          height: 30px;
+          border-radius: 30px;
+          background-color: #555;
+        }
+      }
+      .pwd_item:last-child {
+        border-right: none;
+      }
+    }
+    .forget_pwd {
+      float: right;
+      margin: 30px;
+      width: 100px;
+      text-align: right;
+      font-size: 24px;
+      color: #ff7800;
+    }
+    .input_control {
+      position: relative;
+      left: -300px;
+      bottom: 0;
+      width: 100px;
+      height: 100px;
+    }
+  }
+}
+// 支付密码
+
+.productInfo {
+  background: #fff;
+  padding: 20rpx;
+  // border-top:1px solid #eee;
+  border-bottom: 1px solid #eee;
+  display: flex;
+  justify-content: space-between;
+}
+.productInfo > image {
+  width: 120rpx;
+  height: 120rpx;
+}
+.info-name {
+  display: flex;
+  flex-direction: column;
+  font-size: 28rpx;
+}
+.info-name > text:last-child {
+  font-size: 24rpx;
+  color: #4b4d4b !important;
+}
+.infowidth {
+  width: 400rpx;
+}
+.inforight {
+  text-align: right;
+}
+.infowidth > text:last-child {
+  margin-top: 40rpx;
+}
+.contentbox {
+  position: relative;
+  display: flex;
+}
+.unagree {
+  margin-top: 25rpx;
+  height: 45rpx;
+}
+.infoimage {
+  width: 25rpx;
+  height: 25rpx;
+  position: absolute;
+  right: 0;
+  top: 5rpx;
+  margin-left: 10rpx;
+}

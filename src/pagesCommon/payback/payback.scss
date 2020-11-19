@@ -1,0 +1,322 @@
+.cust-fixed{
+background:#fff;
+width:100%;
+height:95rpx;
+position:fixed;
+top:0;
+}
+.search{
+  background:#F6F6F6;
+  font-size:26px;
+  width:710px;
+  margin-left:20px;
+  margin-top:20px;
+  height:60rpx;
+  // position:fixed;
+}
+.search input{
+  margin:0 auto;
+  width:160px;
+  height:60rpx;
+}
+.content{
+  // margin-top:110rpx;
+// background:#fff;
+}
+.content-a{
+  // border-bottom:1px solid #eee;
+  padding:20rpx;
+  background:#fff;
+  &-name{
+    display:flex;
+    font-size:26rpx;
+    &-pic{
+      width:50rpx;height:50rpx;
+      border-radius: 50%;
+    }
+    &-user{
+      margin-left:20rpx;
+      line-height:50rpx;
+      font-weight:bold;
+      &-t{
+        color:#999;
+        font-size:24rpx;
+        font-weight:400;
+        margin-left:5rpx;
+      }
+    }
+  }
+}
+.content-statis{
+  background:#F9F9F9;
+  display:flex;
+  // justify-content: space-between;
+  flex-wrap: wrap;
+  padding:20rpx;
+  margin-top:20rpx;
+}
+.left{
+  border-right:1px solid #eee;
+}
+.statis-a{
+  display:flex;
+  flex-direction: row;
+  text-align: center;
+  font-size:26rpx;
+  width:335rpx;
+}
+.statis-a>text:last-child{
+  color:#1BBC3D;
+  // font-size:32rpx;
+  font-weight:bold;
+  margin-bottom:20rpx;
+  margin-left:15rpx;
+}
+.orange{
+  color:#FF840B !important;
+}
+.btns{
+  text-align: right;
+  margin-top:20rpx;
+}
+.btns>text{
+  padding:10rpx 25rpx;
+  border:1px solid #888888;
+  font-size:24rpx;
+  color:#585D66;
+  margin-left:10rpx;
+  border-radius: 10rpx;
+}
+.btns-n{
+  background:#1BBC3D;
+  color:#fff !important;
+  border:1px solid #1BBC3D !important;
+}
+.content-b{
+  background:#fff;
+  margin-top:15rpx;
+  padding:20rpx;
+}
+.content-title{
+  text-align: center;
+  margin-bottom:30rpx;
+}
+.content-title>image{
+  width:30rpx;
+  height:25rpx;
+  margin:0 10rpx;
+  margin-top:12rpx;
+}
+.con-row{
+  margin:0 30rpx;
+  background:#F9F9F9;
+  padding:20rpx;
+  margin-bottom:3rpx;
+  display:flex;
+  justify-content: space-between;
+}
+.con-row>text{
+  font-size:34rpx;font-weight:bold;color:#343C49;
+  line-height: 70rpx;
+}
+.con-col{
+  display:flex;
+  flex-direction: column;
+  text-align: right;
+}
+.con-col>text:first-child{
+  color:#FF671E;
+  font-size:30rpx;
+  font-weight:bold;
+}
+.con-col>view{
+  color:#999;
+  font-size:24rpx;
+}
+
+.payfor{
+  background:#fff;
+  margin:20px 0;
+  padding:20px;
+  font-size:28px;
+}
+.paycontent{
+  background:#eee;
+  flex-direction: row;
+display: flex;
+justify-content: space-between;
+padding: 20px;
+margin-top:20px;
+}
+.paycontent>view{
+  font-size:28px;
+}
+.paycontent>text{
+  color:#1BBC3D;
+  font-size:26px;
+}
+.paycontent>input{
+  width:535rpx;
+  font-size:36px;
+}
+.btn{
+  width:90%;
+  margin:0 auto;
+  text-align: center;
+  padding:20px;
+  color:#fff;
+  background:#1BBC3D;
+  margin-top:100px;
+  border-radius: 10px;
+}
+.choosePay{
+  display: flex;
+justify-content: space-between;
+
+}
+.way{
+  padding:20rpx;
+  color:#8B8D8B;
+  font-size:24rpx;
+}
+.paytype{
+  background:#fff;
+}
+.radio-list__label{
+  background:#fff;
+}
+.wxpay{
+  padding:20rpx;
+  color:#4B4D4B;
+}
+.wxpay>image{
+  width:45rpx;height:40rpx;
+}
+.wxpay>text{
+  margin-left:10rpx;
+  font-size:28px;
+}
+.radio-list__radio{
+  transform:scale(0.8);
+  line-height:82rpx;
+}
+.bal{
+  color:#4B4D4B;
+  font-size:24rpx;
+  margin-right:10rpx;
+  line-height: 82rpx;
+}
+.choose-a{
+  border-bottom:1px solid #eee;
+}
+.gray>text{
+background:#999 !important;
+}
+
+// 支付密码
+  .dialog {
+     width: 100%;
+     height: 100%;
+     position: fixed;
+     left:0;
+     top:0;
+     z-index: 1222;
+     background: rgba(0,0,0,0.5);
+    .input_main {
+      position: fixed; 
+      left: 50%; 
+      bottom: 50%;
+      margin-bottom:-180px;
+      margin-left: -45%; 
+      width: 90%; 
+      height: 395px;
+      background-color: #fff; 
+      z-index: 1223;
+      border-radius: 10px;
+      .input_title {
+        width: 100%; 
+        height: 135px; 
+        line-height: 135px; 
+        text-align: center; 
+        font-size: 40px; 
+        .input_title-close{
+          color:rgb(153,153,153);
+          float: left;
+          margin-top:50px;
+          margin-left: 40px;
+        }
+        .input_back {
+          position: absolute; 
+          left: 0; 
+          top: 0;
+          width: 80px; 
+          height: 90px; 
+          display: flex; 
+          justify-content: center; 
+          align-items: center;
+          .input_backtext {
+            width: 20px;
+            height: 20px;
+            background-color: white;
+            border: 2px solid #aaa;
+            border-width: 5px 0 0 5px;
+            transform: rotate(-45deg);
+          }
+        }
+      }
+      .write-title{
+        color:rgb(102,102,102);
+        font-size: 30px;
+        padding-left:40px;
+        margin-bottom: 30px;
+      }
+      .input_row {
+        width: 88%; 
+        margin: 0 40px; 
+        height: 98px; 
+        position: relative;
+        display: flex; 
+        align-items: center; 
+        border: 2px solid rgb(229,229,229); 
+        .pwd_item{
+          flex: 1; 
+          display: flex; 
+          align-items: center; 
+          justify-content: center; 
+          height: 100%; 
+          border-right: 2px solid rgb(229,229,229); 
+          position: relative;
+          .pwd_itemtext {
+            width: 30px; 
+            height: 30px; 
+            border-radius: 30px; 
+            background-color: #555;
+          }
+        }
+        .pwd_item:last-child { 
+          border-right: none; 
+        } 
+      }
+      .forget_pwd {
+        float: right; 
+        margin: 30px; 
+        width: 100px; 
+        text-align: right; 
+        font-size: 24px; 
+        color: #ff7800;
+      }
+      .input_control {
+        position: relative; 
+        left: -300px; 
+        bottom: 0; 
+        width: 100px; 
+        height: 100px;
+      }
+    }
+  }
+  .dialogpsd{
+  margin:10px 30px;
+  text-align: right;
+  color:#1BBC3D;
+}
+// 支付密码

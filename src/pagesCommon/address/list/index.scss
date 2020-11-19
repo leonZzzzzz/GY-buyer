@@ -1,0 +1,105 @@
+.address-lists {
+  margin-top: 20px;
+
+  .address-list {
+    margin: 20px;
+    padding: 20px;
+    box-sizing: border-box;
+    border-bottom: 1px solid #eee;
+    background: #fff;
+    border-radius: 10rpx;
+    // display: flex;
+    // justify-content: space-between;
+    // align-items: center;
+    &__info {
+      flex: 1;
+      border-bottom: 1px solid #eee;
+      padding-bottom: 20rpx;
+      margin-bottom: 20rpx;
+    }
+    &__title {
+      font-size: 25px;
+      color: #4b4d4b;
+      margin-top: 15rpx;
+    }
+    &__tags--default {
+      background: linear-gradient(left, rgb(255, 52, 50), rgb(255, 96, 0));
+      // background: #df2edf;
+      font-size: 24px;
+      padding: 4px 8px;
+      color: #fff;
+      border-radius: 10px;
+    }
+    &__other {
+      font-size: 26px;
+      color: #323432;
+      margin-top: 10px;
+      font-weight: bold;
+    }
+    &__mobile {
+      margin-left: 30px;
+    }
+    &__icon {
+      margin-left: 30px;
+      .qc-icon-bianji {
+        font-size: 30px;
+      }
+    }
+  }
+  &__fixed--button {
+    text-align: center;
+    color: #fff;
+    // background:#ff5433;
+    padding: 20rpx;
+    font-size: 28rpx;
+    border-radius: 10rpx;
+    display: inline-block;
+    width: 300rpx;
+    margin: 0 13rpx;
+  }
+}
+.btn {
+  position: fixed;
+  background: #fff;
+  bottom: 0;
+  width: 100%;
+  padding: 20rpx 10rpx;
+}
+.but-one {
+  color: #323432;
+  border: 1px solid #8b8d8b;
+}
+.but-two {
+  background: #1bbc3d;
+  color: #fff;
+}
+.qcfont {
+  color: #8b8d8b;
+  display: inline-block;
+  margin-left: 40rpx;
+}
+.edit {
+  font-size: 24rpx;
+  margin-left: 10rpx;
+  color: #8b8d8b;
+}
+.ed-one {
+  position: relative;
+}
+.ed-two {
+  display: inline-block;
+  // position: absolute;
+  // right:0rpx;
+}
+.radio-list__radio {
+  font-size: 24rpx;
+  color: #4b4d4b;
+  margin-left: 10rpx;
+}
+.the_list_label {
+  display: flex;
+  justify-content: space-between;
+}
+.label-a {
+  display: flex;
+}

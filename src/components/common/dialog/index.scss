@@ -1,0 +1,88 @@
+
+.dialog {
+  display: block;
+  box-sizing: border-box;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  &__mask {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.45);
+    opacity: 0;
+    transition: opacity 0.25s cubic-bezier(0.25, 0.8, 0.25, 1);
+  }
+  &__container {
+    position: absolute;
+    overflow-y: auto;
+    opacity: 0;
+    z-index: 1;
+    transition: all 0.25s cubic-bezier(0.25, 0.8, 0.25, 1);
+    -webkit-overflow-scrolling: touch;
+    &.center {
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+    &.top-center {
+      top: 10%;
+      left: 50%;
+      transform: translate(-50%, 0);
+    }
+    &.top {
+      width: 100%;
+      max-height: 80%;
+      top: 0;
+      left: 0;
+      right: auto;
+      bottom: auto;
+      transform: translateY(-100%);
+    }
+    &.bottom {
+      width: 100%;
+      max-height: 80%;
+      top: auto;
+      left: 0;
+      right: auto;
+      bottom: 0;
+      transform: translateY(100%);
+    }
+    &.right {
+      top: 0;
+      left: auto;
+      right: 0;
+      bottom: auto;
+      height: 100%;
+      transform: translateX(100%);
+    }
+    &.left {
+      top: 0;
+      left: 0;
+      right: auto;
+      bottom: auto;
+      height: 100%;
+      transform: translateX(-100%);
+    }
+  }
+  &.visible {
+    .dialog__mask {
+      opacity: 1;
+    }
+    .dialog__container {
+      opacity: 1;
+      &.top,
+      &.bottom {
+        transform: translateY(0%);
+      }
+      &.right,
+      &.left {
+        transform: translateX(0%);
+      }
+    }
+  }
+}

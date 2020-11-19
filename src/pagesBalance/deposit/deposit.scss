@@ -1,0 +1,108 @@
+.post{
+  font-size:24rpx;
+  color:#85888E;
+  padding:10rpx 20rpx;
+}
+.account{
+  background:#fff;
+  padding:20rpx;
+  display:flex;
+  justify-content: space-between;
+  padding:20rpx;
+  font-size:26rpx;
+}
+.account>text{
+  line-height: 60rpx;
+}
+.post-a{
+  display:flex;
+  font-size:26rpx;
+}
+.post-b{
+  display:flex;
+  flex-direction: column;
+  text-align: right;
+}
+.post-c{
+  display:flex;
+  justify-content: flex-end;
+}
+.post-c>image{
+  width:30rpx;height:30rpx;
+  margin-right:15rpx;
+  
+}
+.post-b>text{
+  color:#999;
+  font-size:22rpx;
+}
+.qcfont{
+  margin-top:19rpx;
+margin-left:15rpx;
+font-size:25rpx;
+}
+.price{
+  background:#fff;
+  padding:20rpx;
+  display:flex;
+  flex-direction: column;
+  font-size:26rpx;
+  margin-top:15rpx;
+}
+.price-b{
+  display:flex;
+  justify-content: space-between;
+  background:#F7F7F7;
+  margin:20rpx 0;
+  padding:20rpx;
+}
+.price-b>text{
+  color:#55658C;
+}
+.price-d{
+  display:flex;
+}
+.price-d>text{
+  font-size:32rpx;
+  font-weight:bold;
+  margin-right:10rpx;
+}
+.price-d>input{
+  width:400rpx;
+}
+.price-c{
+  color:#55658C;
+}
+.btn{
+  background:#1BBC3D;
+  color:#fff;
+  padding:20rpx;
+  font-size:26rpx;
+  width:650rpx;
+  text-align: center;
+  margin:0 auto;
+  border-radius: 10rpx;
+  margin-top:150rpx;
+}
+.area{
+  margin-top:15rpx;
+  background:#fff;
+  padding:20rpx;
+  font-size:26rpx;
+  width:710rpx;
+}
+.regard{
+  position: absolute;
+  bottom:100rpx;
+  width:100%;
+  text-align: center;
+  font-size:26rpx;
+  color:#55658C;
+}
+.regard image{
+  width:30rpx;height:30rpx;
+  margin-right:10rpx;
+}
+.setting{
+  line-height: 68px;;
+}

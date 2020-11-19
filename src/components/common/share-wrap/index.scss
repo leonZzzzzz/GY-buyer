@@ -1,0 +1,41 @@
+
+
+.share-btn-dialog {
+  background: #fff;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  display: flex;
+  overflow: hidden;
+  .item {
+    padding: 40px;
+    margin: 0;
+    border: 0;
+    border-radius: 0;
+    flex: 1;
+    line-height: 1.5;
+    font-size: 30px;
+    .iconfont {
+      font-size: 100px;
+    }
+    .icon-weixin {
+      color: rgb(65, 175, 53);
+    }
+    .icon-haibao1 {
+      color: rgb(255, 168, 0);
+    }
+    &:last-child {
+      position: relative;
+      &::before {
+        position: absolute;
+        content: '';
+        left: 0;
+        top: 90px;
+        bottom: 90px;
+        border-left: 1Px solid #dadada;
+      }
+    }
+  }
+  .hover-item {
+    background: rgb(228, 228, 228);
+  }
+}

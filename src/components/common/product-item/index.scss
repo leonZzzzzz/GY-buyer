@@ -1,0 +1,46 @@
+.qc-product-item {
+  width: 100%;
+  display: flex;
+  &__cover {
+    flex: 170px 0;
+    height: 170px;
+    margin-right: 30px;
+    border: 1px solid #eee;
+  }
+  &__content {
+    flex: 1;
+  }
+  &__info {
+    height: 130px;
+  }
+  &__name {
+    font-size: 30px;
+    max-height: 88px;
+    line-height: 44px;
+    @include ellipsis-line(2);
+  }
+  &__specs {
+    margin: 10px 0;
+    height: 40px;
+    line-height: 40px;
+    font-size: 24px;
+    color: #666;
+    @include ellipsis-line(1);
+  }
+  &__other {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  &__price {
+    font-size: 28px;
+    margin-right: 20px;
+    font-weight: 500;
+    color: #ff5433;
+  }
+  &__origPrice {
+    color: #666;
+    font-size: 26px;
+    text-decoration: line-through;
+  }
+}

@@ -1,0 +1,16 @@
+.qc-form-item {
+  width: 95%;
+  margin: 0 auto;
+  display: flex;
+  border-bottom: 1PX solid #ededed;
+  align-items: flex-start;
+  padding: 25px 0;
+  font-size: 32px;
+  &__label {
+    width: 175px;
+    margin-right: 20px;
+    height: 52px;
+    line-height: 52px;
+    color: #585858;
+  }
+}

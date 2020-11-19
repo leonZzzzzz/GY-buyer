@@ -1,0 +1,112 @@
+page{
+    background:#fff;
+}
+.wxlogin{
+  background-color:#1BBC3D;
+  width:70%;
+  font-size:30rpx;
+  color:#fff;
+}
+.phonelogin{
+  color:#4B4D4B;
+  background-color:#eee;
+  width:70%;
+  font-size:30rpx;
+  margin-top:40rpx;
+}
+.tips{
+    position:fixed;
+    bottom:80rpx;
+    font-sizE:24rpx;
+    color:#8B8D8B;
+    text-align: center;
+    width:100%;
+}
+.logo{
+    text-align: center;
+    margin:100rpx 0;
+}
+.logo>image{
+    width:300rpx;
+    height:330rpx;
+}
+
+
+
+// 自定义弹窗
+.refund-model{
+  width:100%;
+  height:100%;
+  position:absolute;
+  top:0;
+  z-index:1000;
+}
+.layer{
+  width:100%;
+  height:100%;
+  background:#000;
+  opacity: 0.5;
+}
+.model-content{
+  width:550rpx;
+  height:600rpx;
+  position:absolute;
+  top:240rpx;
+  left:100rpx;
+  background:#fff;
+  border-radius: 8rpx;
+  text-align: center;
+}
+.model-content image{
+  width:300rpx;
+  // width:40rpx;
+  height:330rpx;
+  padding:20rpx;
+  text-align: center;
+  position: relative;
+  margin-top:55rpx;
+}
+
+// .buttom{
+//   border-radius: none !important;
+//   text-align: center;
+//   padding:20rpx;
+//   font-size:30rpx;
+//   position: absolute;
+//   bottom:0;
+//   width:100%;
+// }
+.cancel{
+  text-align: right;
+}
+.model-title{
+  font-size:34rpx;font-weight:bold;
+  color:#343C49;
+  text-align: center;
+}
+.model-input{
+  background:#ECECEC;
+  padding:20rpx;
+  font-size:28rpx;
+  width:400rpx;
+  margin:0 auto;
+  // margin-left:10rpx;
+  display:flex;
+  margin-top:80rpx;
+  margin-bottom:80rpx;
+  justify-content: space-between;
+  border-radius:5rpx;
+}
+
+.model-btn{
+  width:300rpx;
+  text-align: center;
+  padding:20rpx;
+  background:#1BBC3D;
+  color:#fff;
+  border-radius: 10rpx;
+  font-size:28rpx;
+  margin:0 auto;
+  margin-bottom:50rpx;
+}
+// 自定义弹窗end

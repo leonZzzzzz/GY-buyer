@@ -1,0 +1,42 @@
+// 多行省略
+@mixin ellipsis-line($line: 2) {
+  display: -webkit-box;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -webkit-line-clamp: $line;
+  -webkit-box-orient: vertical;
+}
+
+@mixin space-border($left: 30px, $right: 0px, $type: "bottom") {
+  &::after {
+    content: "";
+    height: 2px;
+    position: absolute;
+    left: $left;
+    right: $right;
+    background: #eee;
+    @if $type == "top" {
+      top: 0;
+    } @else {
+      bottom: 0;
+    }
+  }
+}
+
+// 在金额前面带上偏小的价格符号￥
+@mixin price-with-small-symbol($fontSize, $color, $bottom, $paddingLeft, $fontWeight: bold) {
+	position: relative;
+	padding-left: $paddingLeft;
+	font-size: $fontSize;
+	color: $color;
+	font-weight: $fontWeight;
+	&::before {
+		content: '\A5';
+		position: absolute;
+		left: 0;
+		bottom: $bottom;
+		// top: -20px;
+		font-size: $fontSize / 1.5;
+		text-decoration: none;
+	}
+}

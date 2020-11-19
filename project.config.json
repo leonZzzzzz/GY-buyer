@@ -1,0 +1,38 @@
+{
+	"miniprogramRoot": "dist/",
+	"projectname": "GY-%E4%B9%B0%E5%AE%B6%E5%B0%8F%E7%A8%8B%E5%BA%8F",
+	"description": "丰盈e鲜",
+	"appid": "wx1af7240273d21489",
+	"setting": {
+		"urlCheck": true,
+		"es6": false,
+		"postcss": false,
+		"minified": false,
+		"newFeature": true,
+		"autoAudits": false,
+		"checkInvalidKey": true,
+		"checkSiteMap": true,
+		"uploadWithSourceMap": true,
+		"babelSetting": {
+			"ignore": [],
+			"disablePlugins": [],
+			"outputPath": ""
+		}
+	},
+	"checkSiteMap": false,
+	"compileType": "miniprogram",
+	"miniprogram": {
+		"current": 0,
+		"list": [
+			{
+				"id": -1,
+				"name": "订单",
+				"pathName": "pagesMall/order/list/index",
+				"scene": null
+			}
+		]
+	},
+	"simulatorType": "wechat",
+	"simulatorPluginLibVersion": {},
+	"condition": {}
+}

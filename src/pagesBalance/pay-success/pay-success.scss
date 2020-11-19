@@ -1,0 +1,49 @@
+page{
+    background:#fff;
+    flex-direction: column;
+}
+.detail{
+    text-align: right;
+    font-size:28rpx;
+}
+image{
+    width:90rpx;
+    height:90rpx;
+    margin:0 auto;
+    margin-top:100rpx;
+    display:block;
+}
+.price{
+    margin:0 auto;
+    font-size:60rpx;
+    font-weight:bold;
+    margin-top:10rpx;
+    text-align: center;
+}
+.balance{
+    margin:0 auto;
+    font-size:30rpx;
+    font-weight:bold;
+    margin-top:25rpx;
+    text-align: center;
+}
+.btns{
+    
+    flex-direction: column;
+    margin:0 auto;
+    width:100%;
+    margin-top:100rpx;
+}
+.btns>text{
+    width:60%;
+padding:20rpx;
+font-size:28rpx;
+border-radius:10rpx;
+margin:0 auto;
+text-align:center;
+margin-top:30rpx;
+display:block;
+color:#1BBC3D;
+border:1px solid #1BBC3D;
+}
+

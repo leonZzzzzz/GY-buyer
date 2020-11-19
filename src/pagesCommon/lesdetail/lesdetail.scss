@@ -1,0 +1,31 @@
+.detail-one{
+  background:#fff;
+  margin-top:15rpx;
+  flex-direction: column;
+}
+.details{
+  position: relative;
+  display:flex;
+  padding:20px;border-bottom:2px solid #eee;justify-content:space-between;font-size:30px;
+}
+.letter{
+  flex-direction: column;
+  padding:20px;
+  border-bottom:2px solid #eee;
+  font-size:30px;
+}
+.details>text:first-child,.letter>text:first-child{
+  color:#8B8D8B;
+}
+.details>text:last-child{
+  font-size:28rpx;
+  position: absolute;
+  right:20rpx;
+}
+.letter>text:last-child{
+  font-size:28rpx;
+  display:block;
+}
+.details image{
+  width:200px;height:200px;
+}

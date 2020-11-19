@@ -1,0 +1,44 @@
+.set{
+ background:#fff;
+margin:20rpx;
+border-radius:10rpx;
+padding:50rpx;
+flex-direction: column;
+}
+.price{
+    padding:30rpx 0;
+border-bottom:1px solid #eee;
+font-weight:bold;
+display:flex;
+}
+.price>text:nth-child(1){
+    font-size:36px;
+    margin-top:3rpx;
+}
+.price>input{
+    font-size:40px;
+}
+.btn{
+  margin:0 auto;
+  margin-top:50rpx;
+  margin-bottom:30rpx;
+  text-align: center;
+}
+.btn>text{
+  color:#fff;
+background:#1BBC3D;
+text-align:center;
+border-radius:10rpx;
+width:565rpx;
+padding:20rpx 270rpx;
+flex-direction: column;
+}
+.tip{
+    font-size:24rpx;
+color:#999;
+margin-top:20rpx;
+}
+.vou{
+  font-size:26rpx;
+font-weight:bold;
+}

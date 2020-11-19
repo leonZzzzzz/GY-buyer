@@ -1,0 +1,41 @@
+page{
+  background:#fff;
+}
+.logo{
+  text-align: center;
+  margin:130rpx 0;
+}
+.logo>image{
+  width:400rpx;
+  height:120rpx;
+}
+.phone{
+  display:flex;
+justify-content:space-between;
+margin:0 30rpx;
+border-bottom:1px solid #eee;
+padding:20rpx 0;
+font-size:28rpx;
+}
+.phone>input{
+  width:530rpx;
+}
+.phone>text{
+  text-align: center;
+  width:160rpx;
+  color:#1BBC3D;
+  border:1px solid #1BBC3D;
+  padding:10rpx 0rpx;
+  font-size:26rpx;
+  border-radius: 10rpx;
+}
+.btn{
+  text-align: center;
+  margin-top:100rpx;
+}
+.btn>text{
+  padding:20rpx 230rpx;
+background:#1BBC3D;
+color:#fff;
+border-radius:10rpx;
+}

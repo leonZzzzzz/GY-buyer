@@ -1,0 +1,40 @@
+
+.account{
+  background:#fff;
+  padding:20rpx;
+  display:flex;
+  justify-content: space-between;
+  padding:20rpx;
+  font-size:26rpx;
+  border-bottom:1px solid #eee;
+}
+.martop{
+  margin-top:15rpx;
+}
+.account>text{
+  line-height: 60rpx;
+}
+.post-a{
+  display:flex;
+  font-size:26rpx;
+  width:500rpx;
+  margin-top:8rpx;
+  justify-content: space-between;
+}
+.post-a>image{
+  width:30rpx;height:30rpx;
+}
+.post-a>input{
+  width:100%;
+}
+.btn{
+  background:#1BBC3D;
+  color:#fff;
+  padding:20rpx;
+  font-size:26rpx;
+  width:650rpx;
+  text-align: center;
+  margin:0 auto;
+  border-radius: 10rpx;
+  margin-top:150rpx;
+}
